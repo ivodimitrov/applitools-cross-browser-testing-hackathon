@@ -23,10 +23,7 @@ Test code is organized using the Page Object Model
 * Firefox 76
 
 ## Execute the project:
-* __To run traditional tests against APP V1: `mvn test -PTraditionalSuiteV1`__
-* __To run traditional tests against APP V2: `mvn test -PTraditionalSuiteV2`__
-* __To run modern tests against V1: `mvn test -PModernSuiteV1`__
-* __To run modern tests against V2: `mvn test -PModernSuiteV2`__
-
-## Results
-[Applitools Eyes Batch Results](https://eyes.applitools.com/app/test-results/00000251828540943830/?accountId=p-BjmXculEaqQoqEt93vGQ~~)
+* To run traditional tests against APP V1: `mvn test -PTraditionalSuiteV1`
+* To run traditional tests against APP V2: `mvn test -PTraditionalSuiteV2`
+* To run modern tests against V1: `mvn test -PModernSuiteV1`
+* To run modern tests against V2: `mvn test -PModernSuiteV2`
