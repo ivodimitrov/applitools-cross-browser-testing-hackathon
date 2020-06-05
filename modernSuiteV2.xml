@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applitools Modern Regression Suite">
+    <test name="ModernTest">
+        <classes>
+            <class name="ModernTestsV2.ModernVisualTestsV2">
+                <methods>
+                    <include name="testCrossDeviceElements"/>
+                    <include name="testShoppingExperience"/>
+                    <include name="testProductDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
